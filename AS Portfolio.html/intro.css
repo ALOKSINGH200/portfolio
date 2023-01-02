@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+.intro h1{
+    margin:11px;
+    font-family:serif;
+}
+.intro p{
+    margin:11px;
+    font-family: cursive;
+}
+.intro h2{
+    margin:11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.SkillContainer{
+    padding: 12px;
+    
+}
+.Skillitem{
+    display: flex;
+    align-items: center;
+}
+.Skill{
+    width: 185px;
+    height: 6px;
+    background-color: aquamarine;
+    margin: 11px;
+    border: 2px solid black;
+}
+.hun{
+    width: 265px;
+    background-color: rgb(196, 245, 196);
+}
+.sev{
+    width: 200px;
+    background-color: blueviolet;
+}.fif{
+    width: 165px;
+    background-color: blueviolet;
+}
+.Hamburger{
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    cursor: pointer; 
+}
+.Cross{
+    margin-top: 10px;
+    margin-left: 106px;
+}
+.Ham{
+     margin-top: 10px;
+}

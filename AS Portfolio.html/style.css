@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sidebar{
+   background-color: rgba(239, 234, 234, 0.892);
+  /* width: 434px;*/ 
+   font-family:' Fira Sans,sans-serif';
+   height: 100vh;
+   transition:transform 0.3s ease-in;
+
+}
+.sidebar nav{
+    padding: 24px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 28px 0;
+    
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+ /*   background-color: coral;*/
+    width:90vw ;
+    padding: 23px;
+}
+.container{
+    display: flex;
+}
+.InfoCon{
+   /*background-color: blue;*/
+    height: 74vh;
+    width: 80vw;
+    margin: 88px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+.Hello{
+   font-size: 55px;
+}
+.Name{
+   font-size: 45px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.About{
+     font-size: 40px;
+}
+.Moreabout{
+    font-size: 23px;
+    margin-top: 13px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.btn{
+    padding: 6px 7px;
+    border-radius: 21px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue; 
+}
+.devpic img{
+    height: 74vh;
+}
+.sidebarGO{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.Hamburger{
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    cursor: pointer;
+}
+.Cross{
+    margin-top: 10px;
+    margin-left: 106px;  
+}
+.Ham{
+    margin-top: 10px;
+}
+
+@media (max-width: 1380px) {
+    *{
+       /* background-color: aquamarine;*/
+    }
+     /*.sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+}

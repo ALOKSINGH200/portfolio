@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+.Blogcontainer{
+   margin: 18px;
+    font-family: Fira sans,sans-serif;
+    padding: 1px;
+}.Blogcontainer h1{
+    margin: 10px;
+}
+.BlogItem{
+    margin: 8px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.h2{
+    margin: 3px;
+}
+.btn{
+    padding: 6px 3px;
+border-radius: 17px;
+color: white;
+background-color: dodgerblue;
+font-size: 15px;
+font-weight: bold;
+margin: 13px 2px;
+cursor: pointer;
+}
